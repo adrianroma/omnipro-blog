@@ -1,0 +1,22 @@
+
+
+<?php
+
+$this->load();
+$isActive = $this->isActive();
+if($isActive==1):
+
+?>
+<h2 class="date" ><?php echo $this->getDate(); ?></h2>
+<h1 class="title" ><?php echo $this->getTitle(); ?></h1>
+<div class="content">
+<?php echo $this->getContent(); ?>
+</div>
+
+<?php else: ?>
+    <h2 class="date" >NO DISPONIBLE</h2>
+<h1 class="title" >NO DISPONIBLE</h1>
+<div class="content">
+ NO DISPONIBLE
+</div>
+<?php endif; ?>

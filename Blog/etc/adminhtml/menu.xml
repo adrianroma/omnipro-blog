@@ -1,0 +1,6 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Omnipro_Blog::data" title="OMINI.PRO" module="Omnipro_Blog" sortOrder="85" resource="Omnipro_Blog::data"
+             action="blog/data/index"/>
+    </menu>
+</config>
